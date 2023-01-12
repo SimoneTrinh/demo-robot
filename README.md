@@ -16,7 +16,7 @@
   Robot Code (Do not use Robot Framework Language Server because of Conflict)
 
   Robot Framework Formatter
-  
+
   Todo Tree
 
 # How to use this project:
@@ -37,11 +37,9 @@
 
 ## Run test as normal
 
-$ robot -d test-results tests/demo/demo_test.robot
+$ robot -d test-results/robot -v env:prod -v browser:Chrome tests/demo/demo_test.robot
 
 ## Attach to allure listener
-
-$ robot --listener allure_robotframework:test-results/allure -d test-results tests/demo/demo_test.robot
 
 $ robot --listener allure_robotframework:test-results/allure -d test-results/robot -v env:prod -v browser:Chrome tests/demo/demo_test.robot
 
