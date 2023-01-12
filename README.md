@@ -4,12 +4,19 @@
 
 - IDE: VSCode
 - Extensions:
+
   Makefile Tools
+
   Material Icon Theme
+
   Python
+
   Pylance
+
   Robot Code (Do not use Robot Framework Language Server because of Conflict)
+
   Robot Framework Formatter
+  
   Todo Tree
 
 # How to use this project:
