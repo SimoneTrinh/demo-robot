@@ -1,5 +1,17 @@
 # Current: Python 3.11.1, Pip 22.3.1
 
+# IDE / Extension
+
+- IDE: VSCode
+- Extensions:
+  Makefile Tools
+  Material Icon Theme
+  Python
+  Pylance
+  Robot Code (Do not use Robot Framework Language Server because of Conflict)
+  Robot Framework Formatter
+  Todo Tree
+
 # How to use this project:
 
 1. Install pip in your machine
@@ -44,7 +56,7 @@ $ make show-allure...
 
 ### Convension
 
-1. Global scalar global variables always in CAPLOCKS char and space by underscore "\_" character ${} (Snake Case with All Caps)
+1. Global scalar global variables always in CAPLOCKS char and space by underscore "_" character ${} (Snake Case with All Caps)
    EX: `${GLOBAL_SCALAR}`
 2. Varialbes that in scope of Local/Test/Keyword always in Camel case
    EX: `${userPass}`
